@@ -116,6 +116,15 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		F9311D672B47E4D2003E62B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9311D632B47AF07003E62B5 /* Entity */,
+				F9311D642B47AF13003E62B5 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F989D9FD2B47A4B300DD69D3 = {
 			isa = PBXGroup;
 			children = (
@@ -139,8 +148,7 @@
 				F989DA0B2B47A4B300DD69D3 /* SceneDelegate.swift */,
 				F9311D612B47AEEF003E62B5 /* View */,
 				F9311D622B47AEFA003E62B5 /* ViewModel */,
-				F9311D632B47AF07003E62B5 /* Entity */,
-				F9311D642B47AF13003E62B5 /* Network */,
+				F9311D672B47E4D2003E62B5 /* Model */,
 				F9311D652B47AFC3003E62B5 /* Resource */,
 				F9311D662B47AFD6003E62B5 /* Extension */,
 				F989DA172B47A4B500DD69D3 /* Info.plist */,

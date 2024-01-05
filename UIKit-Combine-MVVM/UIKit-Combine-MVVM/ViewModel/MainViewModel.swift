@@ -32,6 +32,7 @@ final class MainViewModel {
     var showWebViewSubject = PassthroughSubject<URL, Never>()
     var errorAlertSubject = PassthroughSubject<String, Never>()
 
+    // Model
     private let apiClient: APIClientable
 
     convenience init() {
