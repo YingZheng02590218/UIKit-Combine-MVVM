@@ -22,6 +22,9 @@ extension UITableView {
     }
 }
 
+// Bind UITableView with Combine DataSource
+// https://stackoverflow.com/questions/66983922/bind-uitableview-with-combine-datasource
+
 // MARK: Combline
 extension UITableView {
     func items<Element>(
